@@ -55,13 +55,17 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Lobster', cursive !important;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #757575;
   text-align: left;
   background-color: #fff;
+}
+
+.font-fix-tieng-viet{
+  font-family: 'Lobster', cursive !important;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
